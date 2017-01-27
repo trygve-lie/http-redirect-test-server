@@ -1,0 +1,31 @@
+{
+  "name": "http-redirect-test-server",
+  "version": "1.0.0",
+  "description": "Tiny test server for testing 301, 302, 307 and 308 http redirects on POST requests in clients Edit",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trygve-lie/http-redirect-test-server.git"
+  },
+  "keywords": [
+    "http",
+    "test",
+    "redirects"
+  ],
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/http-redirect-test-server/issues"
+  },
+  "homepage": "https://github.com/trygve-lie/http-redirect-test-server#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "request": "^2.79.0"
+  }
+}
